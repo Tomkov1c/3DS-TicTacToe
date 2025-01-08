@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: d5f5cfb9be7eabe40a8c408efbe34c2a
+timeCreated: 1736176806
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Outfit
+  fontNames:
+  - Outfit
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 00cbc803dcfbc3c418346d61fc69f988, type: 3}
+  - {fileID: 12800000, guid: 132b1ff6429b91e4fa48de8c5c704c59, type: 3}
+  - {fileID: 12800000, guid: 24c657ac7de24c444ab87f4a1b29a3d0, type: 3}
+  - {fileID: 12800000, guid: 237e7bdc694554e47bedb807d513d58f, type: 3}
+  - {fileID: 12800000, guid: 299ffddc8d03a4b48ba756bf91f9fa7c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

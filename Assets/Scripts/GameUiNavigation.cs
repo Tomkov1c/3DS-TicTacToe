@@ -24,6 +24,7 @@ public class GameUiNavigation : MonoBehaviour, INavigationInterface
 
     private GameEventHandler eventHandler;
 	private Image sign;
+    private bool SelectLifted;
 
     void Start() 
 	{
@@ -43,7 +44,14 @@ public class GameUiNavigation : MonoBehaviour, INavigationInterface
 
 	void Update()
 	{
-        
+        if (GamePad.GetButtonTrigger(N3dsButton.A) && !GamePad.GetButtonTrigger(N3dsButton.Start))
+        {
+            SelectLifted = true;
+        }
+        else
+        {
+            SelectLifted = false;
+        }
     }
 
     void GetFromTable()
@@ -63,8 +71,9 @@ public class GameUiNavigation : MonoBehaviour, INavigationInterface
 
     public void OnSelect()
     {
-        if (IsEmpty)
+        if (IsEmpty && !eventHandler.gameEnded)
         {
+            this.IsEmpty = false;
             char xoro = ' ';
             if (eventHandler.XTurn)
             {
@@ -80,7 +89,6 @@ public class GameUiNavigation : MonoBehaviour, INavigationInterface
             eventHandler.Switch();
             eventHandler.turn++;
             eventHandler.table[GridX - 1, GridY - 1] = xoro;
-            this.IsEmpty = false;
         }
 
     }
@@ -95,7 +103,7 @@ public class GameUiNavigation : MonoBehaviour, INavigationInterface
 
     public void OnStart()
     {
-        if (eventHandler.gameEnded)
+        if (eventHandler.gameEnded && SelectLifted)
         {
             SceneManager.LoadScene(2);
         }

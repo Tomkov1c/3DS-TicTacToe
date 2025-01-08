@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.N3DS;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -19,6 +20,8 @@ public class SingleplayerGameUiNav : MonoBehaviour, INavigationInterface
 
     private SingleplayerGameEventHandler eventHandler;
     private Image sign;
+
+    private bool SelectLifted;
 
     void Start()
     {
@@ -38,6 +41,13 @@ public class SingleplayerGameUiNav : MonoBehaviour, INavigationInterface
     void Update()
     {
         GetFromTable();
+        if(GamePad.GetButtonTrigger(N3dsButton.A) && !GamePad.GetButtonTrigger(N3dsButton.Start))
+        {
+            SelectLifted = true;
+        }else
+        {
+            SelectLifted = false;
+        }
     }
 
     void GetFromTable()
@@ -59,8 +69,9 @@ public class SingleplayerGameUiNav : MonoBehaviour, INavigationInterface
 
     public void OnSelect()
     {
-        if (IsEmpty)
+        if (IsEmpty && !eventHandler.gameEnded)
         {
+            this.IsEmpty = false;
             char xoro = ' ';
             if (eventHandler.XTurn)
             {
@@ -71,8 +82,8 @@ public class SingleplayerGameUiNav : MonoBehaviour, INavigationInterface
             eventHandler.Switch();
             eventHandler.turn++;
             eventHandler.table[GridX - 1, GridY - 1] = xoro;
-            this.IsEmpty = false;
         }
+
     }
 
     public void OnBack()
@@ -85,7 +96,7 @@ public class SingleplayerGameUiNav : MonoBehaviour, INavigationInterface
 
     public void OnStart()
     {
-        if(eventHandler.gameEnded)
+        if(eventHandler.gameEnded && SelectLifted)
         {
             SceneManager.LoadScene(3);
         }

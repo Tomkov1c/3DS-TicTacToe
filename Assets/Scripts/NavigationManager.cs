@@ -35,6 +35,7 @@ public class NavigationManager : MonoBehaviour
     private bool navButton = true;
 
     public bool IsHoverEnabled = true;
+    public bool IsPressEnabled = true;
 
     private AudioManager audioManager;
 
@@ -120,7 +121,7 @@ public class NavigationManager : MonoBehaviour
         }
 
         INavigationInterface action = this.ActionCollection as INavigationInterface;
-        if ((GamePad.GetButtonTrigger(N3dsButton.A) || Input.GetButton("Jump")) && action != null && this.IsInputListenerEnabled)
+        if ((GamePad.GetButtonTrigger(N3dsButton.A) || Input.GetButton("Jump")) && action != null && this.IsInputListenerEnabled && IsPressEnabled)
         {
             audioManager.PlayOnForward();
             action.OnSelect();

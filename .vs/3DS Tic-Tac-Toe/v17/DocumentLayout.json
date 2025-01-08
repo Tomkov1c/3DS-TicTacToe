@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\Unity\\3DS Tic-Tac-Toe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4A12A4D-37F7-BCCE-0392-B73DB67E9B1D}|Assembly-CSharp.csproj|d:\\unity\\3ds tic-tac-toe\\assets\\scripts\\singleplayergameuinav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4A12A4D-37F7-BCCE-0392-B73DB67E9B1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\singleplayergameuinav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4A12A4D-37F7-BCCE-0392-B73DB67E9B1D}|Assembly-CSharp.csproj|D:\\Unity\\3DS Tic-Tac-Toe\\assets\\scripts\\navigationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A12A4D-37F7-BCCE-0392-B73DB67E9B1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\navigationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4A12A4D-37F7-BCCE-0392-B73DB67E9B1D}|Assembly-CSharp.csproj|D:\\Unity\\3DS Tic-Tac-Toe\\assets\\scripts\\gameuinavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4A12A4D-37F7-BCCE-0392-B73DB67E9B1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameuinavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D4A12A4D-37F7-BCCE-0392-B73DB67E9B1D}|Assembly-CSharp.csproj|D:\\Unity\\3DS Tic-Tac-Toe\\assets\\scripts\\singleplayergameuinav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A12A4D-37F7-BCCE-0392-B73DB67E9B1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\singleplayergameuinav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4A12A4D-37F7-BCCE-0392-B73DB67E9B1D}|Assembly-CSharp.csproj|d:\\unity\\3ds tic-tac-toe\\assets\\scripts\\singleplayergameeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4A12A4D-37F7-BCCE-0392-B73DB67E9B1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\singleplayergameeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4A12A4D-37F7-BCCE-0392-B73DB67E9B1D}|Assembly-CSharp.csproj|D:\\Unity\\3DS Tic-Tac-Toe\\Assets\\Scripts\\GameEventHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4A12A4D-37F7-BCCE-0392-B73DB67E9B1D}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\GameEventHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4A12A4D-37F7-BCCE-0392-B73DB67E9B1D}|Assembly-CSharp.csproj|D:\\Unity\\3DS Tic-Tac-Toe\\assets\\scripts\\navigationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4A12A4D-37F7-BCCE-0392-B73DB67E9B1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\navigationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4A12A4D-37F7-BCCE-0392-B73DB67E9B1D}|Assembly-CSharp.csproj|D:\\Unity\\3DS Tic-Tac-Toe\\Assets\\Scripts\\SingleplayerGameEventHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4A12A4D-37F7-BCCE-0392-B73DB67E9B1D}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\SingleplayerGameEventHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4A12A4D-37F7-BCCE-0392-B73DB67E9B1D}|Assembly-CSharp.csproj|D:\\Unity\\3DS Tic-Tac-Toe\\assets\\scripts\\multiplayermenunavactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "NavigationManager.cs",
               "DocumentMoniker": "D:\\Unity\\3DS Tic-Tac-Toe\\Assets\\Scripts\\NavigationManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NavigationManager.cs",
               "ToolTip": "D:\\Unity\\3DS Tic-Tac-Toe\\Assets\\Scripts\\NavigationManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\NavigationManager.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAAAIYAAACKAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAUwIcAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T19:04:25.254Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "Assets\\Scripts\\TitleScreenNavActions.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwC4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T19:25:42.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T19:25:42.44Z"
             },
             {
               "$type": "Document",
@@ -91,46 +90,46 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameUiNavigation.cs",
               "ToolTip": "D:\\Unity\\3DS Tic-Tac-Toe\\Assets\\Scripts\\GameUiNavigation.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameUiNavigation.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAtwGQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwC4AAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T11:01:56.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GameEventHandler.cs",
               "DocumentMoniker": "D:\\Unity\\3DS Tic-Tac-Toe\\Assets\\Scripts\\GameEventHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameEventHandler.cs",
               "ToolTip": "D:\\Unity\\3DS Tic-Tac-Toe\\Assets\\Scripts\\GameEventHandler.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameEventHandler.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAcwHgAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwHgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T11:02:41.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "SingleplayerGameEventHandler.cs",
               "DocumentMoniker": "D:\\Unity\\3DS Tic-Tac-Toe\\Assets\\Scripts\\SingleplayerGameEventHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SingleplayerGameEventHandler.cs",
               "ToolTip": "D:\\Unity\\3DS Tic-Tac-Toe\\Assets\\Scripts\\SingleplayerGameEventHandler.cs",
               "RelativeToolTip": "Assets\\Scripts\\SingleplayerGameEventHandler.cs",
-              "ViewState": "AgIAAJIAAAAAAAAAAAAvwJYAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAmwEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T16:39:30.887Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "SingleplayerGameUiNav.cs",
               "DocumentMoniker": "D:\\Unity\\3DS Tic-Tac-Toe\\Assets\\Scripts\\SingleplayerGameUiNav.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SingleplayerGameUiNav.cs",
               "ToolTip": "D:\\Unity\\3DS Tic-Tac-Toe\\Assets\\Scripts\\SingleplayerGameUiNav.cs",
               "RelativeToolTip": "Assets\\Scripts\\SingleplayerGameUiNav.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAzwFsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCsAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T19:07:02.012Z",
               "EditorCaption": ""
@@ -145,8 +144,7 @@
               "RelativeToolTip": "Assets\\Scripts\\SaveLoadManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T18:10:17.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T18:10:17.847Z"
             }
           ]
         }

@@ -118,6 +118,7 @@ public class GameEventHandler : MonoBehaviour {
             NavigationManager nav = button.GetComponent<NavigationManager>();
             if (nav != null)
             {
+                nav.IsPressEnabled = false;
                 nav.ImageComponent.sprite = nav.ThisNoHover;
                 nav.BackIsEnabled = true;
                 nav.IsHoverEnabled = false;

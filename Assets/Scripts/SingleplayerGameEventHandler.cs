@@ -68,6 +68,7 @@ public class SingleplayerGameEventHandler : MonoBehaviour
         {
             AIPlayerMove();
         }
+
     }
 
     public void Switch()
@@ -143,30 +144,30 @@ public class SingleplayerGameEventHandler : MonoBehaviour
             if (CheckWinner('X'))
             {
                 DisableAllTTTNavigation();
-                gameEnded = true;
                 UpdateScore("Player1Score");
                 winStreak++;
                 LoadUpperLCD();
                 BackButton.SetActive(true);
                 RestartButton.SetActive(true);
+                gameEnded = true;
             }
             else if (CheckWinner('O'))
             {
                 DisableAllTTTNavigation();
-                gameEnded = true;
                 UpdateScore("Player2Score");
                 LoadUpperLCD();
                 winStreak = 0;
                 PlayerPrefs.SetInt("Player1Score", 0);
                 BackButton.SetActive(true);
                 RestartButton.SetActive(true);
+                gameEnded = true;
             }
             else if (turn >= 9)
             {
                 DisableAllTTTNavigation();
-                gameEnded = true;
                 BackButton.SetActive(true);
                 RestartButton.SetActive(true);
+                gameEnded = true;
             }
         }
     }
@@ -191,6 +192,7 @@ public class SingleplayerGameEventHandler : MonoBehaviour
             NavigationManager nav = button.GetComponent<NavigationManager>();
             if (nav != null)
             {
+                nav.IsPressEnabled = false;
                 nav.ImageComponent.sprite = nav.ThisNoHover; 
                 nav.BackIsEnabled = true;
                 nav.IsHoverEnabled = false;
